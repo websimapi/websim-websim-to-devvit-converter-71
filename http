@@ -1,0 +1,9 @@
+GET /users/{username}/slugs/{slug}
+
+GET /projects/{projectId}/revisions/{version}/assets?first=50&after={cursor}
+
+GET /projects/{projectId}/revisions/{version}
+
+GET /projects/{projectId}/revisions/{version}/html
+
+GET /projects/{projectId}/revisions/{version}/assets/{encodedPath}/content
